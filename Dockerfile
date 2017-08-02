@@ -1,3 +1,3 @@
 FROM jekyll/jekyll
-RUN gem install jekyll bundler
+RUN  mkdir robert-gz
 RUN  jekyll new robert-gz
