@@ -1,4 +1,4 @@
 FROM jekyll/jekyll
-WORKDIR /srv/jekyll
-RUN  cd /srv/jekyll && mkdir robert-gz
-RUN  cd /srv/jekyll && jekyll new robert-gz
+WORKDIR /home/jekyll
+RUN  cd /home/jekyll && mkdir robert-gz
+RUN  cd /home/jekyll && jekyll new robert-gz
